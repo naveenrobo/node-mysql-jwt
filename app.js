@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 // Routes
-app.use('/auth', getConnection, require('./app/routes/login'));
+app.use('/auth', getConnection, require('./app/routes/users'));
 
 // error handler
 app.use(handle404Error);

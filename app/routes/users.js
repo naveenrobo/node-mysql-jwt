@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const validate = require('express-validation');
 const {
     handleExceptions
 } = require('../middlewares/errorHandlers');
