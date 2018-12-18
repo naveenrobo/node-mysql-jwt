@@ -27,7 +27,6 @@ module.exports = {
         });
     },
     signUp: async (req, res) => {
-        
         const userData = await services.login(req.mysqlConn, req.body.email);
         if (userData.length !== 0) return res.json({
             status: false,
