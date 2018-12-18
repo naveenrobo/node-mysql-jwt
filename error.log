@@ -17,3 +17,4 @@
 {"level":"error","message":"TypeError: Found non-callable @@iterator\n    at login (G:\\Forum\\forum1\\app\\controllers\\login.js:25:41)"}
 {"level":"error","message":"TypeError: userData[0] is not iterable\n    at login (G:\\Forum\\forum1\\app\\controllers\\login.js:25:64)"}
 {"level":"error","message":"TypeError: userData[0] is not iterable\n    at login (G:\\Forum\\forum1\\app\\controllers\\login.js:25:64)"}
+{"level":"error"}
